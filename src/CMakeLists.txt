@@ -47,6 +47,7 @@ target_link_libraries(support
     pvt.egorpugin.primitives.lock
     pvt.egorpugin.primitives.yaml
 )
+cotire(support)
 
 ########################################
 # common
@@ -125,6 +126,7 @@ target_link_libraries(common
     pvt.cppan.demo.giovannidicanio.winreg
 )
 endif()
+cotire(common)
 
 ################################################################################
 

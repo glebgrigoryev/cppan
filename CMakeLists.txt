@@ -164,6 +164,8 @@ cppan_execute()
 #
 ################################################################################
 
+include(cotire)
+
 add_subdirectory(src)
 
 enable_testing()
